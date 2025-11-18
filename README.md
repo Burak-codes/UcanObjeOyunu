@@ -53,6 +53,8 @@ Oyun pencereniz açılır
 
 2️⃣ .NET CLI (Komut Satırı) ile
 dotnet run
+
+
 🧠 Bu Projede Öğrenilenler
 
 WPF Canvas üzerinde oyun mekaniği tasarlama
