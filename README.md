@@ -1,22 +1,31 @@
-\# Uçan Obje Oyunu 🎮
+# 🎮 Uçan Obje Oyunu — WPF OOP Game
+
+Bu proje, **WPF**, **C#** ve **.NET 9** kullanılarak geliştirilmiş basit bir refleks oyunudur.  
+Oyuncu, ekranda sağdan gelen engellerden kaçmak için **zıplama** hareketi yapar. Oyun;  
+**GameEngine**, **Player**, **Obstacle** gibi sınıflarla tasarlanmış olup,  
+nesne yönelimli programlama (OOP) prensiplerinin gerçek bir uygulamasını içerir.
+
+---
 
 
 
-WPF ve C# ile geliştirilmiş basit bir uçan obje oyunudur.  
+## 🚀 Özellikler
 
-Oyun; `GameEngine`, `Player`, `Obstacle` gibi sınıflarla nesne yönelimli programlama (OOP) prensiplerini örneklemek için yazılmıştır.
+- ✔ **OOP temelli mimari**
+  - GameObject → Player & Obstacle miras yapısı
+  - Ayrıştırılmış GameEngine mantığı
+- ✔ **Gerçek zamanlı oyun döngüsü** (DispatcherTimer ~60 FPS)
+- ✔ **Çarpışma algılama** (Rectangle intersects)
+- ✔ **Dinamik engel üretimi**
+- ✔ **Skor sistemi**
+- ✔ **Event tabanlı yapılar**
+  - `ScoreUpdated`
+  - `CollisionDetected`
+  - `GameOver`
+- ✔ **WPF Canvas üzerinde rendering**
+- ✔ **Basit kullanıcı dostu arayüz**
 
-
-
-\- Framework: .NET 9 (`net9.0-windows`)
-
-\- UI: WPF
-
-\- Dil: C#
-
-
-
-Projeyi Visual Studio ile veya `dotnet run` komutuyla çalıştırabilirsiniz.
+---
 
 
 
